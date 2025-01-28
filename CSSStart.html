@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <!-- Internal Style Sheet -->
+    <style>
+        /* CSS Selector */
+        body {
+            background-color: lightcoral;
+        }
+    </style>
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header><h1>CSS Selectors</h1></header>
+    <main>
+        <article>
+            <!-- inline style is an attribute applied to an element -->
+            <h2 style="color:aqua">Article 1</h2>
+            <p>Lorem ipsum, dolor sit amet <span>consectetur adipisicing elit. Consectetur</span>, aspernatur. Autem quam ut itaque iste quae. Beatae, dolorem provident. Perspiciatis aspernatur laudantium tempore. Sint repudiandae dolor sed nulla iste perferendis.
+            Culpa quis, voluptate temporibus adipisci porro possimus vero dolor ab soluta odio commodi voluptatem incidunt dolorem praesentium cum doloremque placeat voluptatibus nulla atque reiciendis harum consequatur inventore aut modi. Magni!</p>
+        </article>
+        <article>
+            <h2>Article 2</h2>
+            <p id="second" class="grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum mollitia aliquam, ratione voluptatibus obcaecati incidunt quos cumque, maiores ipsa reiciendis tempora id. Maxime, eius. Perferendis ea rerum minima dolorum voluptas?
+            Voluptatem in nisi voluptates quod temporibus aut eligendi accusantium tenetur ut incidunt, odit ipsum a minus quia dolores dolorem suscipit! Voluptas molestias numquam quaerat delectus, autem incidunt modi dignissimos facilis!</p>
+        </article>
+        <article>
+            <h2>Article 3</h2>
+            <p class="grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti doloribus reprehenderit earum similique perspiciatis ad quis enim error, eligendi veritatis aperiam, consequuntur explicabo voluptatibus provident. Accusantium voluptas sint vitae reprehenderit.
+            Odit, laboriosam. Odio quia autem dolorum sint in nobis, <span>totam</span> vitae facere itaque quam unde sequi asperiores quasi vero officia, voluptate obcaecati explicabo impedit temporibus hic nulla expedita dolores pariatur.</p>
+        </article>
+        <p style="color: green">this isn't an article</p>
+    </main>
+    <!-- elements that do not inherit are buttons, inputs, textarea, select -->
+    <button>Click Me</button>
+    <br>
+    <button>second button</button>
+</body>
+</html>
